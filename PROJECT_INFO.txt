@@ -1,0 +1,9 @@
+AI FILM FACTORY V0.5 — HYBRID FREE
+Backend: Python FastAPI + SQLite
+Front: static Hybrid Dashboard (+ previous bundled React advanced editor)
+Local AI Director: Ollama / qwen2.5:7b (Windows Desktop Agent)
+Render: Windows FFmpeg (from imported images/clips/voice; no video AI generation)
+Out: MP4 + SRT + Project ZIP
+API: No OpenAI endpoint, no paid third-party video/TTS integration
+Default URL: / — Studio Editor: /studio
+Important: Render Free filesystem ephemeral. Backup before redeploy.

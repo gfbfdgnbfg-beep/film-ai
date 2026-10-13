@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "AI Film Factory V0.5 — Tab Assistant",
+  "version": "0.5.0",
+  "description": "Nhận diện tab đang mở và dán prompt khi người dùng yêu cầu. Không tự gửi/đăng nhập/tải tệp.",
+  "permissions": ["activeTab", "scripting", "tabs", "clipboardRead"],
+  "action": {"default_title": "AI Film Factory Tab Assistant", "default_popup": "popup.html"}
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0c1220"><title>AI Film Factory V0.5 • Hybrid Studio</title>
+<link rel="stylesheet" href="/assets/hybrid.css"></head>
+<body>
+<div class="shell">
+ <aside class="sidebar">
+  <div class="brand"><div class="mark">AF</div><div><b>AI FILM FACTORY</b><small>HYBRID STUDIO · V0.5</small></div></div>
+  <div class="nav-label">ĐIỀU KHIỂN</div>
+  <button class="nav active" data-tab="dashboard"><span>▦</span> Tổng quan</button>
+  <button class="nav" data-tab="director"><span>◈</span> AI Director</button>
+  <button class="nav" data-tab="assets"><span>▧</span> Ảnh · Video · Giọng</button>
+  <button class="nav" data-tab="output"><span>▶</span> Đầu ra</button>
+  <button class="nav" data-tab="connect"><span>⌘</span> Kết nối AI</button>
+  <div class="nav-label">CÔNG CỤ</div>
+  <a class="nav" href="/studio"><span>♧</span> Storyboard / Node Editor ↗</a>
+  <div class="sidebar-bottom"><span class="dot"></span> Không dùng OpenAI API<p>PC chạy Ollama & FFmpeg. Website chỉ điều khiển và nhận kết quả.</p><a href="/auth/logout" id="logoutLink">Đăng xuất</a></div>
+ </aside>
+ <div class="main">
+  <header class="top"><div class="crumb">WORKSPACE <span> / </span> <strong id="breadcrumb">Tổng quan</strong></div><div class="top-right"><span id="agentBadge" class="pill">◌ Đang kiểm tra Agent</span><span class="pill subtle">LOCAL-FIRST</span></div></header>
+  <main id="view" class="view"></main>
+ </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script defer src="/assets/hybrid.js"></script>
+</body></html>
